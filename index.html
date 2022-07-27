@@ -39,26 +39,26 @@
 				<span>*</span>
 				<input id="lname" type="text" required="">
 			</label>
-			<label for="fname">Last Name
-				<span>*</span>
-				<input id="lname" type="text" required="">
-			</label>
 			<label for="email">Email
 				<span>*</span>
 				<input id="email" type="text" required="">
 			</label>
-			<label for="phone">Phone
-				<span>*</span>
-				<input id="phone" type="text" required="">
-			</label>
 			<label for="password">Password
 				<span>*</span>
-				<input id="password" type="text" required="">
+				<input required="" type="password" id="password" onchange="onChange()" minlength="5" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Password must contain at least one uppercase letter, one lowercase letter, number and be minimum of 5 characters long">
+			</label>
+			<div class="section">
+			<label for="lname">Last Name
+				<input id="lname" type="text" required="">
+			</label>
+			<label for="phone">Phone
+				<input id="phone" type="text" required="">
 			</label>
 			<label for="cpassword">Confirm Password
 				<span>*</span>
 			<input id="cpassword" type="text" required="">
 			</label>
+		</div>
 		</div>
 	</div>
 
