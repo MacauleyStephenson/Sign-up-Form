@@ -76,7 +76,7 @@ h1{
 
 
 /*Form*/
-.form-section{
+.form{
     flex-grow: 1;
     background-color: rgb(182, 182, 182);
     max-height: 100vh;
